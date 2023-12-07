@@ -22,9 +22,8 @@ tr:nth-child(odd) {
     display: block;
 }
 
-table.schedule{
+.tablet-dekstop {
     display: none;
-    overflow: hidden;
 }
 
 /* Media Query for Tablet Viewport */
