@@ -1,0 +1,22 @@
+/*
+Author: Suman Chapagain
+Date: November 08, 2023
+File Name: styles.css
+*/
+
+/* Add margin-bottom to create space between .tablet-desktop element */
+.tablet-desktop {
+    margin-bottom: 30px; 
+}
+
+/* Additional styling for h2 and p elements */
+.grid-item4 h3 {
+    text-shadow: none;
+    color: #333;
+}
+
+.grid-item4 p {
+    font-weight: lighter;
+    text-shadow: none;
+    font-style: normal;
+}

@@ -1,0 +1,55 @@
+/*
+Author: Suman Chapagain
+Date: November 08, 2023
+File Name: styles.css
+*/
+
+/* Style rules for heading */
+#products h1, #why-us h1, #our-guarantee h1{
+    color: rgb(101, 87, 68);
+}
+
+.about-us {
+    text-align: center;
+    color: rgb(50, 37, 37);
+}
+
+#about_us p {
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 630px), print {
+
+        #about_us {
+            clear: left;
+            border-top: 1px solid #000;
+            border-bottom: 1px solid #000;
+            background: linear-gradient(to right, #ccc, #fff);
+            background-color: #f2f2f2;
+            padding: 1% 2%;
+        }
+        
+        #about_us dt {
+            font-weight: bold;
+        }
+        
+        #about_us dd {
+            padding: 0.5% 1% 2% 0;
+        }   
+}
+
+/* Media Query for Dekstop Viewport */
+@media screen and (min-width:1020px), print {
+    #products, #why-us, #our-guarantee {
+        width: 29%;
+        float: left;
+        margin: 0 2%;
+    }
+
+    #about_us {
+        clear: left;
+    }
+}

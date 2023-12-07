@@ -1,0 +1,34 @@
+/*
+Author: Suman Chapagain
+Date: November 08, 2023
+File Name: styles.css
+*/
+
+/* Styles for aside and section along with the class */
+section article p {
+    color: #2e2c2c;
+    font-size: 1em;
+    line-height: 1.2;
+    text-align: center;
+}
+
+aside.team-contact h2 {
+    font-style: normal;
+}
+
+aside.team-contact .related-links {
+    text-decoration: none;
+    color: #5f4646;
+    font-style: normal;
+    font-size: 1.5em;
+}
+
+.join-us {
+    text-align: center;
+    font-style: italic;
+}
+
+.our-team {
+    text-align: center;
+    color: rgb(85, 73, 55);
+}

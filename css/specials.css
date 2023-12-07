@@ -1,0 +1,131 @@
+/*
+Author: Suman Chapagain
+Date: November 08, 2023
+File Name: styles.css
+*/
+
+/* Styles for mobile class */
+.mobile {
+    text-align: center;
+    padding: 5px;
+    background-color: #f2f2f2;
+}
+
+#about_us {
+    margin-top: 20px;
+}
+
+.specials {
+    color: #3498db;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(104, 89, 89, 0.5);
+}
+
+.specials-products {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.why-us {
+    font-size: 0.5em;
+}
+
+.frame-special {
+    position: relative;
+    max-width: 350px;
+    margin: 2% auto;
+}
+
+.pic-text {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0  ,  0, 0.5);
+    color: #e2dcdc;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+} 
+
+.round {
+    border-radius: 0px;
+}
+
+/* Style rules for grid */
+.grid.product-wrapper .frame{
+    border: 5px solid #5e4747;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.grid.product-wrapper .frame span{
+    position: absolute;
+    top: 5px;
+    left: 42%;
+    z-index: 2;
+    padding: 12px 25px;
+    background: #000;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.grid.product-wrapper .frame a:hover img {
+    transform: scale(1.1, 1.1);
+}
+
+.grid.product-wrapper .frame img {
+    transition: all linear 0.3s;
+}
+
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 630px), print { 
+.pic-text {
+    font-size: 1em;
+    padding: 10px;
+}
+
+.grid-specials {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 1%;
+}
+}
+
+/* Media Query for Dekstop Viewport */
+@media screen and (min-width:1020px), print {
+    /* Dekstop Viewport: Style rules for main content */
+    .pic-text {
+        font-size: 1.5em;
+        padding: 20px;
+    }
+    
+    .grid-specials {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 10px;
+    }
+
+    .frame-special {
+        opacity: 1;
+    }
+
+    .frame-special:hover {
+        opacity: 1;
+        box-shadow: 8px 8px 10px #473b3b;
+    }
+}
